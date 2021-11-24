@@ -1,0 +1,15 @@
+SELECT e.ename,d.loc
+FROM EMP e,DEPT d
+WHERE loc= 'chicago';
+
+SELECT e.ename,d.loc
+from emp e,dept d
+where d.deptno = e.deptno
+order by loc;
+
+SELECT * FROM EMP;
+SELECT *FROM DEPT;
+SELECT EMP.EMPNO,DEPT.LOC,EMP.ENAME,DEPT.DEPTNO,DEPT.DNAME
+FROM EMP,DEPT
+WHERE EMP.DEPTNO = DEPT.DEPTNO;
+SELECT ENAME,LOC FROM EMP,DEPT WHERE DEPT.LOC = 'CHICAGO' ;
