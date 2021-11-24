@@ -1,0 +1,79 @@
+
+1NF:   
+PET ID     PET NAME       PET AGE   
+246        ROVER             12        
+298        SPOT               2       
+341        MORRIS             4       
+519        TWEEDY             2    
+   
+2NF:
+HEALTH HISTORY
+Table 1
+PET ID     PET NAME    PET TYPE   PET AGE   OWNER
+246        ROVER       DOG         12        SAM COOK
+298        SPOT        DOG          2       TERRY KIM
+341        MORRIS      CAT          4       SAM COOK
+519        TWEEDY      BIRD         2       TERRY COOK
+
+Table 2
+PET ID       VISIT DATE       PROCEDURE
+246           JAN 13/2002      01-RABIES VACCINATION
+246           MAR 27/2002      10-EXAMINE AND TREAT WOUND
+246           APR 02/2002      05-HEART WORM TEST
+298           JAN 21/2002      08-TETANUS VACCINATION
+
+3NF:-
+HEALTH HISTORY
+Table 1
+PET ID     PET NAME    PET TYPE   PET AGE   OWNER
+246        ROVER       DOG         12        SAM COOK
+298        SPOT        DOG          2       TERRY KIM
+341        MORRIS      CAT          4       SAM COOK
+519        TWEEDY      BIRD         2       TERRY COOK
+
+Table 2
+PET ID       VISIT DATE       PROCEDURE
+246           JAN 13/2002      01-RABIES VACCINATION
+246           MAR 27/2002      10-EXAMINE AND TREAT WOUND
+246           APR 02/2002      05-HEART WORM TEST
+298           JAN 21/2002      08-TETANUS VACCINATION
+
+TABLE 3
+PET ID          PROCEDURE
+248            01-RABIES VACCINATION
+245            10-EXAMINE AND TREAT WOUND
+246            05-HEART WORM
+298            08-TETANUS VACCINATION
+298            05-HEART WORM TEST
+341            01-RABIES VACCINATION
+519            20-ANNUAL CHECK UP
+519            12-EYE WASH
+
+
+
+
+
+PET INFORMATION    
+1.PET ID
+2.PET AGE
+3.PET TYPE
+4.PET NAME
+5.PET OWNER
+6.VISIT DATE
+7.PROCEDURE
+
+TABLE 1 PET Table
+PET ID 
+PET TYPE
+PET NAME
+PET OWNER
+
+TABLE 2  PET OWNER TABLE
+PET ID
+VISIT DATE
+PROCEDURE
+
+TABLE 3  PROCEDURE TABLE
+PET ID
+VISIT DATE
+PROCEDURE
