@@ -1,0 +1,12 @@
+                                            form1
+
+
+
+PET information           Table-1 Pet details       Date Table-2             procedure Table-3
+1.PET ID                   PET ID                    PET ID                      PET ID
+2.pet name                 pet name                  pet age                     Visit date
+3.pet type                 pet type                  Visit age                   procedure
+4.pet age                  owner                     procedure
+5.owner
+6.visit Date
+7.procedure

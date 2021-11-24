@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Js Excercise 1</title>
+    <script>
+        function emp(name, empid, dob, mobileno, address, course){
+            this.name = name;
+            this.empid = empid;
+            this.dob = dob;
+            this.mobileno = mobileno;
+            this.address = address;
+            this.course = course;
+            function changeDetails(name, empid, dob) {
+                this.name = name;
+                this.empid = empid;
+                this.dob = dob;
+            }
+        }
+        var name = prompt("Enter Your Name  ");
+        var empid = parseInt(prompt("Enter your Emp Id "));
+        var dob = prompt("Enter Your DOB  ");
+        var mobileno = parseInt(prompt("Enter Your Mobile No "));
+        var address = prompt("Enter Your Address  ");
+        var course = prompt("Enter Your Course  ");
+
+        e = new emp(name, empid, dob, mobileno, address, course);
+        document.write("Hello...")
+        document.write("Employe Name : " + e.name + "<br><br> Employee Id : " + e.empid + "<br><br> Emplyoee Dob : " + e.dob + "<br><br> Employee MobileNo : " + e.mobileno + "<br><br> Employee Addredd : " + e.address + "<br><br> Employee Course : " + e.course);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
