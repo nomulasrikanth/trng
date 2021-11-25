@@ -21,7 +21,7 @@ CREATE TABLE casestudy (
     ownerid,
     creationon,
     modifiedon)
-	VALUES(1,'SHYAM','WELCOME','ACTIVE','HIGH','HI','YES',1,'2000-01-01','2002-02-22');
+	VALUES(1,'srikanth','WELCOME','ACTIVE','HIGH','HI','YES',1,'2000-01-01','2002-02-22');
 	INSERT INTO casestudy(
     taskid,
     name,
@@ -33,6 +33,6 @@ CREATE TABLE casestudy (
     ownerid,
     creationon,
     modifiedon)
-	VALUES(1,'KESAVA','WELCOME1','ACTIVE1','HIGH1','HI','YES',2,'2000-01-22','2002-02-23');
+	VALUES(1,'kranthi','WELCOME1','ACTIVE1','HIGH1','HI','YES',2,'2000-01-22','2002-02-23');
 
 	SELECT *FROM casestudy;
