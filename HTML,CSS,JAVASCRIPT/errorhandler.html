@@ -1,0 +1,21 @@
+<html>
+<head>
+<title> Error handling</title>
+
+</head>
+
+<body>
+<script type="text/javascript">
+function myFunc() {
+var a = parseInt(prompt("enter a value"));
+var b = parseInt(prompt("enter a value"));
+try{ if ( b == 0 ){ throw("Refresh and give a non zero value for 2nd digit");
+} else
+{ var c = a / b;
+document.write("Result of division is " +c);}
+} catch (e) { alert("Error: " +e );}
+}
+</script>
+<p onclick="myFunc()"> Click me </p>
+</body>
+</html>
